@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Wallet</string>
+
+    <string name="hello_world">Tap two locations in the map</string>
+    <string name="str_tv_distance_time">Distance</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vyber">Choos</string>
+    <string name="title_activity_registracia">Registration</string>
+    <string name="title_activity_bankomaty">ATM</string>
+    <string name="title_activity_mapa_cesta">Map</string>
+    <string name="title_activity_zoznam">List</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_zoznam_adapter">ListAdapter</string>
+    <string name="title_activity_foto">Photo</string>
+    <string name="title_activity_image_adaper">ImageAdaper</string>
+    <string name="title_activity_foto_detail">PhotoDetail</string>
+    <string name="title_activity_take_photo">TakePhoto</string>
+    <string name="title_activity_graf">Graf</string>
+    <string name="title_activity_statistiky">Stats</string>
+    <string name="prihlasenie">Login</string>
+    <string name="user_name">User name</string>
+    <string name="btnprihlasit">Login</string>
+    <string name="btnRegistracia">Registration</string>
+    <string name="heslo">Password</string>
+    <string name="menoReg">name:</string>
+    <string name="user_nameRe">User name</string>
+    <string name="hesloReg">Password:</string>
+    <string name="hesloReg2">password</string>
+    <string name="opakujReg">Repeat:</string>
+    <string name="hesloReg3">password</string>
+    <string name="financieReg">Bank:</string>
+    <string name="zadajFinanReg">Get cash (0.00)</string>
+    <string name="registrujReg">Registration</string>
+    <string name="financieVyb">Bank:</string>
+    <string name="vyberVkladVyb">Expense/Income</string>
+    <string name="bankomatyVyb">ATM</string>
+    <string name="statistikyVyb">Stats</string>
+    <string name="odfotVyb">PHOTO </string>
+    <string name="najdiBankBank">Find ATM</string>
+    <string name="vzdialenostBank">distance</string>
+    <string name="metrovBank">meter</string>
+    <string name="odfotFot">SHOOT</string>
+    <string name="bankomatMap">ATM</string>
+    <string name="celkovestatStat">Stats </string>
+    <string name="pocetTranStat">Number of trans</string>
+    <string name="vkladyStat">All income</string>
+    <string name="vyberyStat">All expense</string>
+    <string name="pocetVkladStat">Number of incomes</string>
+    <string name="pocetVybStat">Number of expenses</string>
+    <string name="denDet">Day:</string>
+    <string name="zadajDenDet">get day(1-31)</string>
+    <string name="mesiacDet">Month:</string>
+    <string name="zadajMesDet">get month(1-12)</string>
+    <string name="RokDet">Year:</string>
+    <string name="zadajRokDet">get year(20xx)</string>
+    <string name="vkladDet">income</string>
+    <string name="vyberDet">expense</string>
+    <string name="sumaDet">Cash:</string>
+    <string name="zadajSumDet">get cash (0.00)</string>
+    <string name="infoDet">Info:</string>
+    <string name="zadajUcelDet">Get detail</string>
+    <string name="ulozDet">Save</string>
+    <string name="zoznamTranZoz">List of transactions</string>
+</resources>

@@ -1,0 +1,195 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sk.upjs.ics.wallet.DetailFragment"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    style="@style/Pozadie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" >
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/denDet"
+                        android:id="@+id/textDen"
+                        android:layout_column="0" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="0.7"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editDen"
+                        android:layout_column="1"
+                        android:hint="@string/zadajDenDet"
+                        android:inputType="number" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/mesiacDet"
+                        android:id="@+id/textMesiac"
+                        android:layout_column="0" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="0.7"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editMesiac"
+                        android:layout_column="1"
+                        android:hint="@string/zadajMesDet"
+                        android:inputType="number" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/RokDet"
+                        android:id="@+id/textRok"
+                        android:layout_column="0" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="0.7"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editRok"
+                        android:layout_column="1"
+                        android:hint="@string/zadajRokDet"
+                        android:inputType="number" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/vkladDet"
+                        android:id="@+id/vklad"
+                        android:layout_column="0" />
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/vyberDet"
+                        android:id="@+id/vyber"
+                        android:layout_column="0" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/sumaDet"
+                        android:id="@+id/textSuma"
+                        android:layout_column="0" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="0.7"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editSuma"
+                        android:layout_column="1"
+                        android:hint="@string/zadajSumDet"
+                        android:inputType="numberDecimal" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/infoDet"
+                        android:id="@+id/textPolozka"
+                        android:layout_column="0" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_weight="0.7"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editPolozka"
+                        android:layout_column="1"
+                        android:hint="@string/zadajUcelDet"
+                        android:inputType="text" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ulozDet"
+                        android:background="@android:drawable/alert_light_frame"
+                        android:id="@+id/btnUloz"
+                        android:onClick="uloz"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1" />
+                </TableRow>
+
+            </TableLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>
+

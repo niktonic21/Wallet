@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sk.upjs.ics.wallet.MapaCesta">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bankomatMap"
+        android:layout_alignParentTop="true"
+        android:id="@+id/btnBankomat"
+        android:onClick="najdiBankomaty"
+        android:layout_alignParentRight="false" />
+
+    <TextView
+        android:id="@+id/tv_distance_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/hello_world"
+        android:layout_alignParentRight="true" />
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_below="@+id/btnBankomat" />
+</RelativeLayout>

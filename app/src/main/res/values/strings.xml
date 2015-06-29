@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Wallet</string>
+
+    <string name="hello_world">Tap two locations in the map</string>
+    <string name="str_tv_distance_time">Distance</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vyber">Vyber</string>
+    <string name="title_activity_registracia">Registracia</string>
+    <string name="title_activity_bankomaty">Bankomaty</string>
+    <string name="title_activity_mapa_cesta">Mapa</string>
+    <string name="title_activity_zoznam">Zoznam</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_zoznam_adapter">ZoznamAdapter</string>
+    <string name="title_activity_foto">Foto</string>
+    <string name="title_activity_image_adaper">ImageAdaper</string>
+    <string name="title_activity_foto_detail">FotoDetail</string>
+    <string name="title_activity_take_photo">TakePhoto</string>
+    <string name="title_activity_graf">Graf</string>
+    <string name="title_activity_statistiky">Statistiky</string>
+    <string name="prihlasenie">Prihláste sa</string>
+    <string name="user_name">Prihlasovacie meno</string>
+    <string name="btnprihlasit">Prihlásiť</string>
+    <string name="btnRegistracia">Registrácia</string>
+    <string name="heslo">Heslo</string>
+    <string name="menoReg">Meno:</string>
+    <string name="user_nameRe">Prihlasovacie meno</string>
+    <string name="hesloReg">Heslo:</string>
+    <string name="hesloReg2">Heslo</string>
+    <string name="opakujReg">Opakuj:</string>
+    <string name="hesloReg3">Heslo</string>
+    <string name="financieReg">Financie</string>
+    <string name="zadajFinanReg">Zadaj financie (0.00)</string>
+    <string name="registrujReg">Registruj</string>
+    <string name="financieVyb">Financie</string>
+    <string name="vyberVkladVyb">Vyber/Vklad</string>
+    <string name="bankomatyVyb">Bankomaty</string>
+    <string name="statistikyVyb">Štatistiky</string>
+    <string name="odfotVyb">Odfoť nákup</string>
+    <string name="najdiBankBank">Nájdi bankomat</string>
+    <string name="vzdialenostBank">vzdialenosť</string>
+    <string name="metrovBank">metrov</string>
+    <string name="odfotFot">Odfoť</string>
+    <string name="bankomatMap">Bankomat</string>
+    <string name="celkovestatStat">Celkové štatistiky</string>
+    <string name="pocetTranStat">Počet transak.</string>
+    <string name="vkladyStat">Vklady spolu</string>
+    <string name="vyberyStat">Výbery spolu</string>
+    <string name="pocetVkladStat">Počet vkladov</string>
+    <string name="pocetVybStat">Počet výberov</string>
+    <string name="denDet">Den:</string>
+    <string name="zadajDenDet">zadaj den(1-31)</string>
+    <string name="mesiacDet">Mesiac:</string>
+    <string name="zadajMesDet">zadaj mesiac(1-12)</string>
+    <string name="RokDet">Rok:</string>
+    <string name="zadajRokDet">zadaj rok(20xx)</string>
+    <string name="vkladDet">vklad</string>
+    <string name="vyberDet">výber</string>
+    <string name="sumaDet">Suma:</string>
+    <string name="zadajSumDet">Zadaj sumu (0.00)</string>
+    <string name="infoDet">Info:</string>
+    <string name="zadajUcelDet">Zadaj účel transakcie</string>
+    <string name="ulozDet">Ulož</string>
+    <string name="zoznamTranZoz">Zoznam transakcií</string>
+</resources>

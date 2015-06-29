@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="sk.upjs.ics.wallet.FotoDetailActivity">
+
+    <item android:id="@+id/action_share"
+        android:title="Zdieľaj"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_delete"
+        android:title="Zmaž"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="always" />
+</menu>

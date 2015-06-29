@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Pozadie" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@drawable/wallet3</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.MyActionBar" parent="@style/Widget.AppCompat.ActionBar"/>
+</resources>
